@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>café rose</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class ="nav-contenaire">
+            <h1 class="logo">café <span>rose</span></h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Notre histoire</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">commander</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <img src="a10.jpg" alt="image de presentation du café">
+        </section>
+        <section class ="content-section">
+            <div class="form-section">
+                <h2>formulaire d'inscription </h2>
+                <form action ="">
+                    <Label for="nom">Nom</label>
+                    <input type="text" id="nom" name="nom">
+                    <Label for ="prenom">prénom</label>
+                    <input type="text" id="prénom" name="prenom">
+    <Label for="adresse "> adresse </label>     
+    <input type="text" id="adresse" name ="adresse">    
+    <Label for="telephone">telephone</label> 
+    <input type="text" id="telephone" name="telephone">    
+    <Label for="emal">email</label>  
+    <input type="email" id="email" name="email">
+    <Label for="confirme">confirme le mot de passe </label>
+    <input type="password" id="password" name="password">
+    <button type="submit">s'inscrire'</button>
+                </form>
+            </div>
+            <!-- div contenant la vidéo -->
+            <div class="vidéo-section">
+                <video src="formation.mp4" controls muted autoplay>
+                  Votre navigateur ne supporte pas ce format
+                </video>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>ce site a été conçu par les étudiants de d-clic spécialisés en seo en 2025</p>
+    </footer>
+</body>
+</html>

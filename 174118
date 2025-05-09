@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serf;
+}
+header{
+    Background-color: black;
+    opacity: 0,8;
+    padding: 15px 5%;
+}
+.nav-contenaire{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   max-width: 1200px;
+}
+.logo{
+    color: pink;
+    font-size: 24px;
+    font-weight: bold;
+}
+.logo span{
+    color: white;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li{
+    margin: 20px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+hero img{
+    width: 100%;
+    height: auto;
+    display:block;
+}
+/* conteneur qui contient le formulaire à gauche et à droite */
+content-section{
+    display: flex;
+    Justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px ;
+    margin: 50px;
+    margin: 50px 0px;
+}
+/* style du div qui contient le formulaire*/
+.form-section{
+    width: 45%;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+/*  style du type du formulaire */
+. form-section h2{
+    text-align: center;
+    margin-botton: 25px;
+}
+/* style du label*/
+form label{
+    display: block;
+    margin-top: 15px;
+}
+/* style du champ input*/
+form input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+/*  */ 
+button{
+    background-color: pink;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin-top: 16px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    font-weight: blod;
+}
+/*  */
+. video-section{
+   width: 45%;
+}
+.vidéo-section vidéo {
+    width: 100%;
+    border-radius: 8px;
+}
+footer{
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/*responsive*/
+/* réglés CSS appliquées aux écrans de taille inférieure à 768px*/
+@media(max-width:768px){
+   .nav-container{
+       flex-direction: column;
+       text-align: center;
+   }
+   /* mettre les éléments du menu en colonne */
+  .nav-links{
+      flex-direction: column;
+      margin-top: 10px;
+  }
+ .nav-links li{
+     margin: 15px 0;
+ }
+.content-section{
+    flex-direction: column;
+    align-items: center;
+}
+.form-section, .vidéo-section{
+    width: 100%;
+    margin-bottom: 20px;
+ }
+}
